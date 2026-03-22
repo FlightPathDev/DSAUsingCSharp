@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSAProblemSolve
+namespace DSAProblemSolve.Array
 {
     internal class RemoveDuplicateNumberInArray
     {
         public RemoveDuplicateNumberInArray()
         {
             int[] arr = { 2, 7, 1, 5, 8, 47, 10, 8, 1, 40, 47, 48 };
-            Console.WriteLine(string.Join(", ", arr));
-            Array.Sort(arr);
+            Console.WriteLine(string.Join(", ", arr));   
+            //Array.Sort(arr);
             int j = 1;
             for (int i = 0; i < arr.Length - 1; i++)
             {
